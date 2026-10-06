@@ -1,126 +1,132 @@
 import Link from 'next/link'
 
-export default function ScholarshipsPage() {
+export default function Scholarships() {
   return (
-    <main className="w-full bg-[#f9f8f4]">
+    <main className="w-full font-sans">
       
-      {/* Hero Section */}
-      <section className="bg-[#0a2230] text-white pt-12 pb-32 lg:pt-20 lg:pb-48 px-6 lg:px-8 relative overflow-hidden">
-        <div className="max-w-[1400px] mx-auto grid lg:grid-cols-2 gap-12 relative z-10">
-          <div>
-            {/* Breadcrumb */}
-            <div className="text-xs text-gray-400 mb-12 flex items-center gap-2 flex-wrap">
-              <Link href="/" className="hover:text-white transition">Home</Link> 
-              <span>&gt;</span> 
-              <Link href="/admissions" className="hover:text-white transition">Admissions</Link>
-              <span>&gt;</span>
-              <span className="text-white">Scholarships</span>
+      {/* Hero Header Section */}
+      <section className="bg-[#0a2230] text-white pt-24 pb-32 px-6 lg:px-8 relative overflow-hidden">
+        
+        {/* Subtle decorative background shape */}
+        <div className="absolute top-0 right-0 w-[50%] h-[150%] bg-[#061822] rounded-bl-[100%] z-0 pointer-events-none opacity-50"></div>
+        
+        <div className="max-w-[1200px] mx-auto relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-8 items-start">
+          
+          <div className="lg:col-span-8">
+            <div className="flex flex-col gap-6 mb-10">
+              <p className="text-white/60 text-[13px] tracking-wide">
+                <Link href="/" className="hover:text-white transition">Home</Link> &gt; <Link href="/admissions" className="hover:text-white transition">Admissions</Link> &gt; Scholarships
+              </p>
+              <div className="flex items-center gap-4">
+                <div className="h-[1px] w-12 bg-[#cc9a66]"></div>
+                <p className="text-white/80 font-bold tracking-[0.2em] text-[11px] uppercase">Lifecare Medical Institute</p>
+              </div>
             </div>
             
-            <div className="flex items-center gap-4 mb-6">
-              <div className="h-[1px] w-8 bg-[#cc9a66]"></div>
-              <p className="text-gray-300 font-bold tracking-widest text-[10px] lg:text-xs uppercase">Lifecare Medical Institute</p>
-            </div>
-            
-            <h1 className="font-serif text-5xl lg:text-7xl mb-8 leading-[1.1]">
+            <h1 className="font-serif text-[44px] sm:text-[56px] lg:text-[64px] leading-[1.05] tracking-tight mb-6">
               Scholarships
             </h1>
             
-            <p className="text-lg lg:text-xl text-gray-300 max-w-lg leading-relaxed font-light">
+            <p className="text-gray-300 leading-[1.8] text-[15px] lg:text-[17px] max-w-[650px]">
               Any approved scholarship, fee support or financial assistance opportunity will state its eligibility criteria, application process, value and closing date.
             </p>
           </div>
           
-          {/* Abstract Graphic */}
-          <div className="hidden lg:flex items-center justify-center relative w-full h-full">
-             <div className="relative w-[320px] h-[320px] border-[1px] border-white/20 rounded-full flex items-center justify-center">
-               <div className="absolute top-12 right-0 w-24 h-24 bg-[#cc9a66]"></div>
-               <div className="w-[120%] h-[1px] bg-white/20 absolute -rotate-45"></div>
-             </div>
+          {/* Right side standardized branding block */}
+          <div className="lg:col-span-4 lg:col-start-9 border-l-[2px] border-[#cc9a66] pl-6 lg:pl-10 mt-8 lg:mt-32">
+            <h2 className="font-serif text-[24px] lg:text-[30px] leading-[1.2] mb-3">Lifecare Medical<br/>Institute</h2>
+            <p className="text-[#cc9a66] font-bold tracking-[0.15em] text-[10px] lg:text-[11px] uppercase">
+              Professional & Higher<br/>Education
+            </p>
+          </div>
+          
+        </div>
+      </section>
+
+      {/* Financial Support Info Box Section */}
+      <section className="bg-white py-20 lg:py-32 px-6 lg:px-8">
+        <div className="max-w-[1000px] mx-auto">
+          <div className="border border-gray-100 shadow-sm bg-white p-8 lg:p-16 flex flex-col md:flex-row gap-8 lg:gap-12 items-start border-l-[4px] border-l-[#187965]">
+            
+            {/* Icon (Award Ribbon) */}
+            <div className="shrink-0 p-4 bg-teal-50 text-[#187965] rounded">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+              </svg>
+            </div>
+            
+            {/* Content */}
+            <div className="flex-grow">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="h-[1px] w-8 bg-[#cc9a66]"></div>
+                <p className="text-[#187965] font-bold tracking-[0.2em] text-[10px] lg:text-[11px] uppercase">Financial support</p>
+              </div>
+              
+              <h2 className="font-serif text-[28px] lg:text-[36px] text-[#0a2230] leading-[1.15] tracking-tight mb-6">
+                Check current opportunities and eligibility
+              </h2>
+              
+              <div className="space-y-6 text-gray-700 text-[14px] lg:text-[15px] leading-[1.8] mb-10">
+                <p>
+                  Any approved scholarship, fee support or financial assistance opportunity will state its eligibility criteria, application process, value and closing date.
+                </p>
+                <p>
+                  Applicants should not assume that financial support is available until they have received written confirmation from LMI.
+                </p>
+              </div>
+              
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link href="/contact" className="bg-[#0a2230] text-white px-8 py-3.5 text-[14px] font-semibold hover:bg-gray-800 transition text-center">
+                  Contact Admissions
+                </Link>
+                {/* Updated Link to Point to Nursing Allied Health */}
+                <Link href="/schools/nursing-allied-health" className="border border-gray-300 text-[#0a2230] px-8 py-3.5 text-[14px] font-semibold hover:bg-gray-50 transition text-center">
+                  View programmes
+                </Link>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
 
-      {/* Overlapping Info Card */}
-      <section className="px-6 lg:px-8 relative z-20 -mt-20 lg:-mt-32 pb-16 lg:pb-24">
-        <div className="max-w-[1100px] mx-auto bg-white shadow-xl flex flex-col md:flex-row border border-gray-100 border-l-[4px] border-l-[#187965]">
+      {/* Use Current Information Section (Beige) */}
+      <section className="bg-[#f9f8f4] py-20 lg:py-32 px-6 lg:px-8">
+        <div className="max-w-[1200px] mx-auto grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           
-          {/* Left Icon Panel */}
-          <div className="w-full md:w-[120px] lg:w-[160px] bg-white border-b md:border-b-0 md:border-r border-gray-100 flex items-start justify-center pt-8 md:pt-12 pb-6 md:pb-0 shrink-0">
-             <div className="w-12 h-12 bg-teal-50 rounded flex items-center justify-center text-[#187965]">
-                {/* Ribbon/Medal Icon */}
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 0 1 3 3h-15a3 3 0 0 1 3-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 0 1-.982-3.172M9.497 14.25a7.454 7.454 0 0 0 .981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 0 0 7.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 0 0 2.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 0 1 2.916.52 6.003 6.003 0 0 1-5.395 4.972m0 0a6.726 6.726 0 0 1-2.749 1.35m0 0a6.772 6.772 0 0 1-3.044 0" />
-                </svg>
-             </div>
-          </div>
-          
-          {/* Right Text Panel */}
-          <div className="p-8 lg:p-16 flex-1">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="h-[1px] w-8 bg-[#cc9a66]"></div>
-              <p className="text-[#187965] font-bold tracking-widest text-xs uppercase">Financial support</p>
-            </div>
-            
-            <h2 className="font-serif text-3xl lg:text-4xl text-[#0a2230] leading-tight mb-6">
-              Check current opportunities and eligibility
+          <div className="lg:col-span-6">
+            <h2 className="font-serif text-[32px] lg:text-[40px] text-[#0a2230] leading-[1.15] tracking-tight">
+              Use current,<br />confirmed information
             </h2>
-            
-            <div className="text-gray-600 text-[15px] leading-relaxed space-y-6 mb-10 max-w-3xl">
-              <p>
-                Any approved scholarship, fee support or financial assistance opportunity will state its eligibility criteria, application process, value and closing date.
-              </p>
-              <p>
-                Applicants should not assume that financial support is available until they have received written confirmation from LMI.
-              </p>
-            </div>
-            
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact" className="bg-[#0a2230] text-white px-8 py-3.5 text-sm font-bold hover:bg-gray-800 transition text-center">
-                Contact Admissions
-              </Link>
-              <Link href="/schools/nursing-allied-health" className="border border-gray-300 text-[#0a2230] px-8 py-3.5 text-sm font-bold hover:bg-gray-50 transition text-center">
-                View programmes
-              </Link>
-            </div>
           </div>
-        </div>
-      </section>
-
-      {/* Use Current Information Section */}
-      <section className="bg-[#f9f8f4] pt-8 pb-24 lg:pb-32 px-6 lg:px-8">
-        <div className="max-w-[1400px] mx-auto grid lg:grid-cols-2 gap-8 lg:gap-24 items-start">
-          <h2 className="font-serif text-4xl lg:text-5xl text-[#0a2230] leading-tight">
-            Use current,<br/>confirmed information
-          </h2>
-          <div className="text-gray-600 text-[15px] leading-relaxed max-w-xl lg:mt-2">
-            <p>
+          
+          <div className="lg:col-span-6 flex flex-col justify-center pt-2 lg:pt-4">
+            <p className="text-gray-700 text-[15px] lg:text-[16px] leading-[1.8]">
               Admissions information may change between intakes. Check the relevant programme status and obtain written confirmation from LMI before making an application or payment.
             </p>
           </div>
+          
         </div>
       </section>
 
       {/* Call to Action Section */}
-      <section className="bg-[#0b1828] text-white py-16 lg:py-24 px-6 lg:px-8 border-b border-gray-800">
-        <div className="max-w-[1400px] mx-auto">
-          <div className="flex items-center gap-4 mb-6">
-            <div className="h-[1px] w-8 bg-[#cc9a66]"></div>
-            <p className="text-gray-400 font-bold tracking-widest text-xs uppercase">Your next step</p>
+      <section className="bg-[#0b1828] text-white py-20 lg:py-32 border-b border-gray-800 px-6 lg:px-8">
+        <div className="max-w-[1200px] mx-auto">
+          <div className="flex items-center gap-4 mb-8">
+            <div className="h-[1px] w-12 bg-[#cc9a66]"></div>
+            <p className="text-gray-400 font-bold tracking-[0.2em] text-[11px] uppercase">Your next step</p>
           </div>
           
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 lg:gap-10">
             <div>
-              <h2 className="font-serif text-4xl lg:text-5xl mb-4 lg:mb-6 leading-tight">Explore admissions at LMI</h2>
-              <p className="text-gray-400 text-[15px] lg:text-base max-w-xl">
-                Return to the Admissions page for application guidance and access to all admissions information.
-              </p>
+              <h2 className="font-serif text-[32px] lg:text-[44px] leading-[1.1] tracking-tight mb-4">Explore admissions at LMI</h2>
+              <p className="text-gray-400 text-[15px] lg:text-[16px] max-w-xl">Return to the Admissions page for application guidance and access to all admissions information.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 shrink-0 w-full lg:w-auto">
-              <Link href="/admissions" className="bg-[#cc9a66] text-[#0a2230] px-8 py-4 text-sm font-bold hover:bg-[#b88554] transition flex items-center justify-center gap-2 text-center w-full sm:w-auto">
+              <Link href="/admissions" className="bg-[#cc9a66] text-[#0a2230] px-8 py-3.5 text-[14px] font-semibold hover:bg-[#b88554] transition flex items-center justify-center gap-2 text-center w-full sm:w-auto">
                 Admissions →
               </Link>
-              <Link href="/admissions/how-to-apply" className="border border-white text-white px-8 py-4 text-sm font-bold hover:bg-white hover:text-[#0a2230] transition text-center w-full sm:w-auto">
+              <Link href="/admissions/how-to-apply" className="border border-white text-white px-8 py-3.5 text-[14px] font-semibold hover:bg-white hover:text-[#0a2230] transition text-center w-full sm:w-auto">
                 How to Apply
               </Link>
             </div>

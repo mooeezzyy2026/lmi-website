@@ -5,6 +5,11 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Lifecare Medical Institute | Peshawar',
   description: 'Empowering Through Education in Peshawar',
+  icons: {
+    icon: '/images/brand/lmi-logo.png',
+    shortcut: '/images/brand/lmi-logo.png',
+    apple: '/images/brand/lmi-logo.png',
+  },
 }
 
 export default function RootLayout({
@@ -14,6 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/brand/lmi-logo.png" />
+        <link rel="shortcut icon" href="/images/brand/lmi-logo.png" />
+        <link rel="apple-touch-icon" href="/images/brand/lmi-logo.png" />
+      </head>
       <body className="font-sans antialiased text-[#1a1a1a] bg-[#f9f8f4]">
         
         {/* Utility Header */}
@@ -223,7 +233,7 @@ export default function RootLayout({
           <div className="max-w-[1400px] mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
             <div className="col-span-1 md:col-span-2 lg:col-span-1">
               
-              {/* === UPDATED FOOTER LOGO HERE === */}
+              {/* Footer Logo */}
               <div className="h-16 w-48 mb-6 relative">
                   <img src="/images/brand/lmi-logo.png" alt="LMI Logo" className="object-contain object-left w-full h-full" />
               </div>
