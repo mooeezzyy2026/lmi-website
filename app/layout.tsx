@@ -52,16 +52,18 @@ export default function RootLayout({
             
             {/* Desktop Navigation */}
             <nav className="hidden xl:flex space-x-5 2xl:space-x-8 text-[15px] font-bold text-[#0a2230] h-full" aria-label="Primary navigation">
-              <Link href="/" className="flex items-center h-full border-b-[3px] border-[#187965] pt-[3px] whitespace-nowrap">
+              
+              {/* === UPDATED HOVER EFFECTS === */}
+              <Link href="/" className="flex items-center h-full border-b-[3px] border-transparent hover:border-[#187965] pt-[3px] hover:text-[#cc9a66] transition whitespace-nowrap">
                 Home
               </Link>
-              <Link href="/about" className="flex items-center h-full hover:text-[#cc9a66] transition whitespace-nowrap">
+              <Link href="/about" className="flex items-center h-full border-b-[3px] border-transparent hover:border-[#187965] pt-[3px] hover:text-[#cc9a66] transition whitespace-nowrap">
                 About
               </Link>
               
               {/* Desktop Schools Dropdown */}
               <div className="relative group h-full flex items-center">
-                <button className="hover:text-[#cc9a66] transition flex items-center gap-1.5 outline-none h-full whitespace-nowrap">
+                <button className="flex items-center h-full border-b-[3px] border-transparent hover:border-[#187965] pt-[3px] hover:text-[#cc9a66] transition whitespace-nowrap gap-1.5 outline-none">
                   Schools 
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 mt-0.5">
                     <path fillRule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -69,7 +71,7 @@ export default function RootLayout({
                 </button>
                 <div className="absolute top-[85px] left-0 w-64 bg-[#f3efe6] shadow-xl hidden group-hover:block border border-gray-200 z-50">
                   <div className="bg-[#0a2230] text-white px-5 py-3 font-bold flex justify-between items-center">
-                    <Link href="/schools" className="hover:underline">Schools and Programmes</Link>
+                    <Link href="/schools/nursing-allied-health" className="hover:underline">Schools and Programmes</Link>
                     <span>→</span>
                   </div>
                   <div className="py-2 flex flex-col">
@@ -81,13 +83,13 @@ export default function RootLayout({
                 </div>
               </div>
 
-              <Link href="/quality" className="flex items-center h-full hover:text-[#cc9a66] transition whitespace-nowrap">
+              <Link href="/quality" className="flex items-center h-full border-b-[3px] border-transparent hover:border-[#187965] pt-[3px] hover:text-[#cc9a66] transition whitespace-nowrap">
                 Quality
               </Link>
               
               {/* Desktop Admissions Dropdown */}
               <div className="relative group h-full flex items-center">
-                <button className="hover:text-[#cc9a66] transition flex items-center gap-1.5 outline-none h-full whitespace-nowrap">
+                <button className="flex items-center h-full border-b-[3px] border-transparent hover:border-[#187965] pt-[3px] hover:text-[#cc9a66] transition whitespace-nowrap gap-1.5 outline-none">
                   Admissions 
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 mt-0.5">
                     <path fillRule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
@@ -95,7 +97,7 @@ export default function RootLayout({
                 </button>
                 <div className="absolute top-[85px] left-0 w-64 bg-[#f3efe6] shadow-xl hidden group-hover:block border border-gray-200 z-50">
                   <div className="bg-[#0a2230] text-white px-5 py-3 font-bold flex justify-between items-center">
-                    <Link href="/admissions" className="hover:underline">Admissions</Link>
+                    <Link href="/contact" className="hover:underline">Admissions</Link>
                     <span>→</span>
                   </div>
                   <div className="py-2 flex flex-col">
@@ -105,25 +107,25 @@ export default function RootLayout({
                     <Link href="/admissions/dates-deadlines" className="px-5 py-2.5 text-[#0a2230] font-normal hover:bg-[#e8e3d3] transition">Dates & Deadlines</Link>
                     <Link href="/admissions/notifications" className="px-5 py-2.5 text-[#0a2230] font-normal hover:bg-[#e8e3d3] transition">Notifications</Link>
                     <Link href="/admissions/prospectus-2026" className="px-5 py-2.5 text-[#0a2230] font-normal hover:bg-[#e8e3d3] transition">Prospectus 2026</Link>
-                    <Link href="/contact" className="px-5 py-2.5 text-[#0a2230] font-normal hover:bg-[#e8e3d3] transition">Contact Us</Link>
                     <Link href="/admissions/faqs" className="px-5 py-2.5 text-[#0a2230] font-normal hover:bg-[#e8e3d3] transition">FAQs</Link>
+                    <Link href="/contact" className="px-5 py-2.5 text-[#0a2230] font-normal hover:bg-[#e8e3d3] transition">Contact Us</Link>
                   </div>
                 </div>
               </div>
 
-              <Link href="/student-life" className="flex items-center h-full hover:text-[#cc9a66] transition whitespace-nowrap">
+              <Link href="/student-life" className="flex items-center h-full border-b-[3px] border-transparent hover:border-[#187965] pt-[3px] hover:text-[#cc9a66] transition whitespace-nowrap">
                 Student Life
               </Link>
-              <Link href="/facilities" className="flex items-center h-full hover:text-[#cc9a66] transition whitespace-nowrap">
+              <Link href="/facilities" className="flex items-center h-full border-b-[3px] border-transparent hover:border-[#187965] pt-[3px] hover:text-[#cc9a66] transition whitespace-nowrap">
                 Facilities
               </Link>
-              <Link href="/governance" className="flex items-center h-full hover:text-[#cc9a66] transition whitespace-nowrap">
+              <Link href="/governance" className="flex items-center h-full border-b-[3px] border-transparent hover:border-[#187965] pt-[3px] hover:text-[#cc9a66] transition whitespace-nowrap">
                 Governance
               </Link>
-              <Link href="/partnerships" className="flex items-center h-full hover:text-[#cc9a66] transition whitespace-nowrap">
+              <Link href="/partnerships" className="flex items-center h-full border-b-[3px] border-transparent hover:border-[#187965] pt-[3px] hover:text-[#cc9a66] transition whitespace-nowrap">
                 Partnerships
               </Link>
-              <Link href="/contact" className="flex items-center h-full hover:text-[#cc9a66] transition whitespace-nowrap">
+              <Link href="/contact" className="flex items-center h-full border-b-[3px] border-transparent hover:border-[#187965] pt-[3px] hover:text-[#cc9a66] transition whitespace-nowrap">
                 Contact
               </Link>
             </nav>
@@ -186,7 +188,7 @@ export default function RootLayout({
                 Schools <span className="text-xl group-open:rotate-180 transition-transform">▾</span>
               </summary>
               <div className="flex flex-col pl-4 pb-4 space-y-4 text-gray-700">
-                <Link href="/schools">All Schools & Programmes</Link>
+                <Link href="/schools/nursing-allied-health">All Schools & Programmes</Link>
                 <Link href="/schools/nursing-allied-health">Nursing & Allied Health</Link>
                 <Link href="/schools/business">Business School</Link>
                 <Link href="/schools/law">Law School</Link>
@@ -201,15 +203,15 @@ export default function RootLayout({
                 Admissions <span className="text-xl group-open:rotate-180 transition-transform">▾</span>
               </summary>
               <div className="flex flex-col pl-4 pb-4 space-y-4 text-gray-700">
-                <Link href="/admissions">Admissions Overview</Link>
+                <Link href="/contact">Admissions Overview</Link>
                 <Link href="/admissions/how-to-apply">How to Apply</Link>
                 <Link href="/admissions/tuition-fees">Tuition Fees</Link>
                 <Link href="/admissions/scholarships">Scholarships</Link>
                 <Link href="/admissions/dates-deadlines">Dates & Deadlines</Link>
                 <Link href="/admissions/notifications">Notifications</Link>
                 <Link href="/admissions/prospectus-2026">Prospectus 2026</Link>
-                <Link href="/contact">Contact Us</Link>
                 <Link href="/admissions/faqs">FAQs</Link>
+                <Link href="/contact">Contact Us</Link>
               </div>
             </details>
 
@@ -249,8 +251,8 @@ export default function RootLayout({
             <div>
               <h3 className="text-white font-bold tracking-wider text-xs uppercase mb-6">Study</h3>
               <ul className="space-y-3">
-                <li><Link href="/study/programmes" className="hover:text-white">Find a Programme</Link></li>
-                <li><Link href="/admissions" className="hover:text-white">Admissions</Link></li>
+                <li><Link href="/schools/nursing-allied-health" className="hover:text-white">Find a Programme</Link></li>
+                <li><Link href="/contact" className="hover:text-white">Admissions</Link></li>
                 <li><Link href="/admissions/how-to-apply" className="hover:text-white">How to Apply</Link></li>
               </ul>
             </div>
