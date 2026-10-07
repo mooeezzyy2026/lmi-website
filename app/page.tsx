@@ -33,7 +33,7 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/schools" className="bg-[#0a2230] text-white px-8 py-4 text-[14px] font-semibold hover:bg-gray-800 transition flex items-center justify-center gap-2 text-center w-full sm:w-auto">
+              <Link href="/schools/nursing-allied-health" className="bg-[#0a2230] text-white px-8 py-4 text-[14px] font-semibold hover:bg-gray-800 transition flex items-center justify-center gap-2 text-center w-full sm:w-auto">
                 Explore programmes →
               </Link>
               <Link href="/contact" className="border border-gray-300 text-[#0a2230] px-8 py-4 text-[14px] font-semibold hover:bg-gray-50 transition text-center w-full sm:w-auto">
@@ -85,7 +85,7 @@ export default function Home() {
                  Entry requirements, duration, delivery, assessment, awarding arrangements and approval status.
                </p>
                
-               <Link href="/schools" className="text-[#cc9a66] font-bold text-[14px] hover:underline flex items-center gap-2">
+               <Link href="/schools/nursing-allied-health" className="text-[#cc9a66] font-bold text-[14px] hover:underline flex items-center gap-2">
                  View all programmes →
                </Link>
              </div>
@@ -294,7 +294,7 @@ export default function Home() {
               <p className="text-gray-400 text-[15px] lg:text-[16px] max-w-xl">Explore your options, check the current programme status and speak to our admissions team.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 shrink-0 w-full lg:w-auto">
-              <Link href="/schools" className="bg-[#cc9a66] text-[#0a2230] px-8 py-4 text-[14px] font-semibold hover:bg-[#b88554] transition flex items-center justify-center gap-2 text-center w-full sm:w-auto">
+              <Link href="/schools/nursing-allied-health" className="bg-[#cc9a66] text-[#0a2230] px-8 py-4 text-[14px] font-semibold hover:bg-[#b88554] transition flex items-center justify-center gap-2 text-center w-full sm:w-auto">
                 Find a programme →
               </Link>
               <Link href="/contact" className="border border-white text-white px-8 py-4 text-[14px] font-semibold hover:bg-white hover:text-[#0a2230] transition text-center w-full sm:w-auto">

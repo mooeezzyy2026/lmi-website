@@ -133,7 +133,7 @@ export default function AboutPage() {
               <p className="text-gray-400 text-[15px] lg:text-[16px] max-w-xl">Read our vision and values or learn how leadership and academic oversight support the institution.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 shrink-0 w-full lg:w-auto">
-              <Link href="/about/vision-mission-values" className="bg-[#cc9a66] text-[#0a2230] px-8 py-4 text-[14px] font-semibold hover:bg-[#b88554] transition flex items-center justify-center gap-2 text-center w-full sm:w-auto">
+              <Link href="/partnerships" className="bg-[#cc9a66] text-[#0a2230] px-8 py-4 text-[14px] font-semibold hover:bg-[#b88554] transition flex items-center justify-center gap-2 text-center w-full sm:w-auto">
                 Vision, Mission and Values →
               </Link>
               <Link href="/governance" className="border border-white text-white px-8 py-4 text-[14px] font-semibold hover:bg-white hover:text-[#0a2230] transition text-center w-full sm:w-auto">
