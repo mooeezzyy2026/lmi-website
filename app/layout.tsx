@@ -26,7 +26,7 @@ export default function RootLayout({
       </head>
       <body className="font-sans antialiased text-[#1a1a1a] bg-[#f9f8f4]">
         
-        {/* Utility Header */}
+        
         <div className="bg-[#0b1622] text-gray-300 text-xs py-2 px-6 lg:px-8 flex justify-between items-center tracking-wide">
           <p>Learning with purpose in Peshawar</p>
           <nav aria-label="Utility navigation">
@@ -34,26 +34,25 @@ export default function RootLayout({
           </nav>
         </div>
 
-        {/* Main Header */}
         <header className="bg-white sticky top-0 z-50 border-b border-gray-100 relative">
-          {/* Mobile Menu CSS Checkbox Trick */}
+        
           <input type="checkbox" id="mobile-menu" className="hidden peer/mobile" />
-          {/* Search Overlay CSS Checkbox Trick */}
+          
           <input type="checkbox" id="search-toggle" className="hidden peer/search" />
           
           <div className="max-w-[1400px] mx-auto px-6 lg:px-8 flex justify-between items-center relative z-50 bg-white h-[85px]">
             
-            {/* Logo */}
+            
             <Link href="/" aria-label="LMI home" className="flex items-center h-full shrink-0 mr-4">
               <div className="h-12 w-40 lg:h-16 lg:w-56 relative">
                  <img src="/images/brand/lmi-logo.png" alt="LMI Logo" className="object-contain object-left w-full h-full absolute inset-0" />
               </div>
             </Link>
             
-            {/* Desktop Navigation */}
+           
             <nav className="hidden xl:flex space-x-5 2xl:space-x-8 text-[15px] font-bold text-[#0a2230] h-full" aria-label="Primary navigation">
               
-              {/* === UPDATED HOVER EFFECTS === */}
+            
               <Link href="/" className="flex items-center h-full border-b-[3px] border-transparent hover:border-[#187965] pt-[3px] hover:text-[#cc9a66] transition whitespace-nowrap">
                 Home
               </Link>
@@ -61,7 +60,7 @@ export default function RootLayout({
                 About
               </Link>
               
-              {/* Desktop Schools Dropdown */}
+         
               <div className="relative group h-full flex items-center">
                 <button className="flex items-center h-full border-b-[3px] border-transparent hover:border-[#187965] pt-[3px] hover:text-[#cc9a66] transition whitespace-nowrap gap-1.5 outline-none">
                   Schools 
@@ -87,7 +86,7 @@ export default function RootLayout({
                 Quality
               </Link>
               
-              {/* Desktop Admissions Dropdown */}
+           
               <div className="relative group h-full flex items-center">
                 <button className="flex items-center h-full border-b-[3px] border-transparent hover:border-[#187965] pt-[3px] hover:text-[#cc9a66] transition whitespace-nowrap gap-1.5 outline-none">
                   Admissions 
@@ -130,9 +129,9 @@ export default function RootLayout({
               </Link>
             </nav>
 
-            {/* Desktop Right Side Buttons */}
+          
             <div className="hidden xl:flex items-center gap-3 shrink-0 ml-4">
-              {/* Functional Search Toggle Label */}
+            
               <label htmlFor="search-toggle" aria-label="Search" className="cursor-pointer w-11 h-11 border border-gray-300 flex items-center justify-center text-[#0a2230] hover:bg-gray-50 hover:border-gray-400 transition shrink-0">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
@@ -143,7 +142,7 @@ export default function RootLayout({
               </Link>
             </div>
 
-            {/* Mobile Right Side (Search + Hamburger) */}
+          
             <div className="flex xl:hidden items-center gap-4 ml-auto">
               <label htmlFor="search-toggle" aria-label="Search" className="cursor-pointer text-[#0a2230]">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
@@ -156,7 +155,7 @@ export default function RootLayout({
             </div>
           </div>
 
-          {/* Functional Search Overlay */}
+         
           <div className="absolute top-[85px] left-0 w-full bg-[#f9f8f4] shadow-2xl border-b border-gray-200 z-50 hidden peer-checked/search:block">
             <div className="max-w-[1400px] mx-auto px-6 lg:px-8 py-8 lg:py-12">
               <form action="/search" method="GET" className="flex flex-col sm:flex-row items-center gap-4 max-w-4xl mx-auto">
@@ -178,7 +177,6 @@ export default function RootLayout({
             </div>
           </div>
 
-          {/* Mobile Navigation Menu */}
           <div className="absolute top-[85px] left-0 w-full bg-[#f9f8f4] h-[calc(100vh-85px)] z-40 hidden peer-checked/mobile:flex flex-col px-6 py-4 overflow-y-auto border-t border-gray-200">
             <Link href="/" className="py-4 border-b border-gray-200 font-bold text-[#0a2230]">Home</Link>
             <Link href="/about" className="py-4 border-b border-gray-200 font-bold text-[#0a2230]">About</Link>
@@ -227,15 +225,15 @@ export default function RootLayout({
           </div>
         </header>
 
-        {/* Page Content */}
+      
         {children}
 
-        {/* Footer */}
+       
         <footer className="bg-[#0a2230] text-gray-300 py-12 lg:py-16 text-sm">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
             <div className="col-span-1 md:col-span-2 lg:col-span-1">
               
-              {/* Footer Logo */}
+              
               <div className="h-16 w-48 mb-6 relative">
                   <img src="/images/brand/lmi-logo.png" alt="LMI Logo" className="object-contain object-left w-full h-full" />
               </div>

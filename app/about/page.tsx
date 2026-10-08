@@ -4,10 +4,9 @@ export default function AboutPage() {
   return (
     <main className="w-full">
       
-      {/* Hero Header Section */}
+      
       <section className="bg-[#0a2230] text-white pt-24 pb-32 px-6 lg:px-8 relative overflow-hidden">
         
-        {/* Subtle decorative background shape */}
         <div className="absolute top-0 right-0 w-[50%] h-[150%] bg-[#081a25] rounded-bl-[100%] z-0 pointer-events-none opacity-50"></div>
         
         <div className="max-w-[1400px] mx-auto relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-8 items-start">
@@ -36,8 +35,6 @@ export default function AboutPage() {
           
         </div>
       </section>
-
-      {/* Intro Text Section */}
       <section className="bg-white py-20 lg:py-32 px-6 lg:px-8">
         <div className="max-w-[1400px] mx-auto grid lg:grid-cols-12 gap-12 lg:gap-16">
           
@@ -63,11 +60,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 3 Info Cards Section */}
+    
       <section className="bg-[#f9f8f4] py-20 lg:py-32 px-6 lg:px-8">
         <div className="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           
-          {/* Card 1 */}
+  
           <article className="bg-white p-8 lg:p-12 border border-gray-100 border-t-[3px] border-t-[#187965] shadow-sm hover:shadow-md transition">
             <div className="h-12 w-12 bg-teal-50 rounded flex items-center justify-center mb-8 text-[#187965]">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" /></svg>
@@ -78,7 +75,7 @@ export default function AboutPage() {
             </p>
           </article>
           
-          {/* Card 2 */}
+        
           <article className="bg-white p-8 lg:p-12 border border-gray-100 border-t-[3px] border-t-[#187965] shadow-sm hover:shadow-md transition">
             <div className="h-12 w-12 bg-teal-50 rounded flex items-center justify-center mb-8 text-[#187965]">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
@@ -89,7 +86,7 @@ export default function AboutPage() {
             </p>
           </article>
           
-          {/* Card 3 */}
+       
           <article className="bg-white p-8 lg:p-12 border border-gray-100 border-t-[3px] border-t-[#187965] shadow-sm hover:shadow-md transition">
             <div className="h-12 w-12 bg-teal-50 rounded flex items-center justify-center mb-8 text-[#187965]">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" /><path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /></svg>
@@ -103,7 +100,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Responsible Publishing Section */}
       <section className="bg-white py-20 lg:py-32 px-6 lg:px-8 border-b border-gray-100">
         <div className="max-w-[1400px] mx-auto grid lg:grid-cols-12 gap-12 lg:gap-16">
           <div className="lg:col-span-5">
@@ -119,7 +115,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Call to Action Section */}
+  
       <section className="bg-[#0b1828] text-white py-20 lg:py-32 border-b border-gray-800 px-6 lg:px-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="flex items-center gap-4 mb-8">

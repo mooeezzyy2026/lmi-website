@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 import { Suspense } from 'react'
 
-// This acts as a database of all the text on your website
+
 const siteContent = [
   {
     title: 'Home',
@@ -85,7 +85,7 @@ function SearchResults() {
   const query = searchParams.get('q')?.trim() || ''
   const lowerQuery = query.toLowerCase()
 
-  // Filter the content based on the query
+ 
   const results = siteContent.filter(page => {
     if (!lowerQuery) return false
     return (
@@ -97,7 +97,7 @@ function SearchResults() {
 
   return (
     <>
-      {/* Search Header */}
+     
       <section className="bg-[#0a2230] text-white py-12 lg:py-20 px-6 lg:px-8">
         <div className="max-w-[1000px] mx-auto">
           <div className="flex items-center gap-4 mb-6">
@@ -113,7 +113,7 @@ function SearchResults() {
         </div>
       </section>
 
-      {/* Search Results List */}
+     
       <section className="py-12 lg:py-20 px-6 lg:px-8">
         <div className="max-w-[1000px] mx-auto">
           

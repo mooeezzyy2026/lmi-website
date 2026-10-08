@@ -4,10 +4,10 @@ export default function BusinessSchool() {
   return (
     <main className="w-full font-sans">
       
-      {/* Hero Header Section */}
+    
       <section className="bg-[#0a2230] text-white pt-24 pb-32 px-6 lg:px-8 relative overflow-hidden">
         
-        {/* Subtle decorative background shape */}
+     
         <div className="absolute top-0 right-0 w-[50%] h-[150%] bg-[#061822] rounded-bl-[100%] z-0 pointer-events-none opacity-50"></div>
         
         <div className="max-w-[1200px] mx-auto relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-8 items-start">
@@ -42,24 +42,23 @@ export default function BusinessSchool() {
         </div>
       </section>
 
-      {/* Planned Academic Development Box */}
+      
       <section className="relative pt-16 pb-20 px-6 lg:px-8">
-        {/* Split Background Effect (Top half dark blue, bottom half white) */}
         <div className="absolute top-0 left-0 w-full h-[35%] bg-[#0a2230] z-0"></div>
         <div className="absolute top-[35%] left-0 w-full h-[65%] bg-white z-0"></div>
 
         <div className="max-w-[1200px] mx-auto relative z-10">
           
-          {/* The crisp outlined box with the thick teal left border and BEIGE background */}
+          
           <div className="w-full border border-gray-200 border-l-[4px] border-l-[#187965] p-8 lg:p-14 bg-[#f9f8f4] shadow-sm">
             
             <div className="flex items-center gap-6 mb-8">
-              {/* Teal Icon Box (White background to pop against the beige box) */}
+              
               <div className="w-12 h-12 bg-white border border-[#187965]/20 flex flex-shrink-0 items-center justify-center rounded-sm text-[#187965]">
                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" /></svg>
               </div>
               
-              {/* Section Tag */}
+            
               <div className="flex items-center gap-4">
                 <div className="h-[1px] w-12 bg-[#cc9a66]"></div>
                 <p className="text-[#187965] font-bold tracking-[0.2em] text-[11px] uppercase">Planned School</p>
@@ -92,7 +91,7 @@ export default function BusinessSchool() {
         </div>
       </section>
 
-      {/* Call to Action Section */}
+   
       <section className="bg-[#0b1828] text-white pt-10 pb-20 lg:pt-16 lg:pb-32 border-b border-gray-800 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-4 mb-8">

@@ -4,10 +4,9 @@ export default function Contact() {
   return (
     <main className="w-full font-sans">
       
-      {/* Hero Header Section */}
+   
       <section className="bg-[#0a2230] text-white pt-24 pb-32 px-6 lg:px-8 relative overflow-hidden">
-        
-        {/* Subtle decorative background shape */}
+
         <div className="absolute top-0 right-0 w-[50%] h-[150%] bg-[#061822] rounded-bl-[100%] z-0 pointer-events-none opacity-50"></div>
         
         <div className="max-w-[1200px] mx-auto relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-8 items-start">
@@ -32,7 +31,7 @@ export default function Contact() {
             </p>
           </div>
           
-          {/* Right side standardized branding block */}
+         
           <div className="lg:col-span-4 lg:col-start-9 border-l-[2px] border-[#cc9a66] pl-6 lg:pl-10 mt-8 lg:mt-32">
             <h2 className="font-serif text-[24px] lg:text-[30px] leading-[1.2] mb-3">Lifecare Medical<br/>Institute</h2>
             <p className="text-[#cc9a66] font-bold tracking-[0.15em] text-[10px] lg:text-[11px] uppercase">
@@ -43,14 +42,14 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* 3 Contact Info Cards Section */}
+      
       <section className="bg-white py-16 lg:py-24 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           
-          {/* Card 1: Main Campus */}
+        
           <article className="bg-white p-8 lg:p-10 border border-gray-100 border-t-[3px] border-t-[#187965] shadow-sm h-full flex flex-col">
             <div className="h-12 w-12 bg-teal-50 flex items-center justify-center rounded text-[#187965] mb-8">
-              {/* Map Pin Icon */}
+         
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg>
             </div>
             <div className="flex items-center gap-4 mb-4">
@@ -68,10 +67,10 @@ export default function Contact() {
             </Link>
           </article>
           
-          {/* Card 2: Teaching Hospital */}
+         
           <article className="bg-white p-8 lg:p-10 border border-gray-100 border-t-[3px] border-t-[#187965] shadow-sm h-full flex flex-col">
             <div className="h-12 w-12 bg-teal-50 flex items-center justify-center rounded text-[#187965] mb-8">
-              {/* Building/Hospital Icon */}
+          
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" /></svg>
             </div>
             <div className="flex items-center gap-4 mb-4">
@@ -89,10 +88,9 @@ export default function Contact() {
             </Link>
           </article>
 
-          {/* Card 3: General Enquiries */}
           <article className="bg-white p-8 lg:p-10 border border-gray-100 border-t-[3px] border-t-[#187965] shadow-sm h-full flex flex-col">
             <div className="h-12 w-12 bg-teal-50 flex items-center justify-center rounded text-[#187965] mb-8">
-              {/* Headset/Contact Icon */}
+           
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M15 14.25h-.75m-4.5 0H9m-4.5 0v-2.25c0-4.142 3.358-7.5 7.5-7.5s7.5 3.358 7.5 7.5v2.25m-15 0a3 3 0 0 0 3 3h.75m-3-3h.75m9 0a3 3 0 0 1-3 3h-.75m3-3h-.75M12 20.25a3.75 3.75 0 0 0 3.75-3.75M12 20.25a3.75 3.75 0 0 1-3.75-3.75" /></svg>
             </div>
             <div className="flex items-center gap-4 mb-4">
@@ -115,11 +113,10 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Contact Form Section (Beige) */}
       <section className="bg-[#f9f8f4] py-20 lg:py-32 px-6 lg:px-8 border-b border-gray-200">
         <div className="max-w-[1200px] mx-auto grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           
-          {/* Left Text Block */}
+       
           <div className="lg:col-span-4">
             <div className="flex items-center gap-4 mb-6">
               <div className="h-[1px] w-12 bg-[#cc9a66]"></div>
@@ -145,7 +142,7 @@ export default function Contact() {
             </div>
           </div>
           
-          {/* Right Form Block */}
+         
           <div className="lg:col-span-8 bg-white p-8 lg:p-12 shadow-sm border border-gray-100">
             <form className="space-y-6">
               
@@ -174,7 +171,7 @@ export default function Contact() {
                       <option>Partnerships</option>
                       <option>Feedback</option>
                     </select>
-                    {/* Custom Dropdown Arrow */}
+                 
                     <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-500">
                       <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
                     </div>

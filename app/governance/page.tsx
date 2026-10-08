@@ -3,11 +3,10 @@ import Link from 'next/link'
 export default function Governance() {
   return (
     <main className="w-full font-sans">
-      
-      {/* Hero Header Section */}
+ 
       <section className="bg-[#0a2230] text-white pt-24 pb-48 px-6 lg:px-8 relative overflow-hidden">
         
-        {/* Subtle decorative background shape */}
+       
         <div className="absolute top-0 right-0 w-[50%] h-[150%] bg-[#061822] rounded-bl-[100%] z-0 pointer-events-none opacity-50"></div>
         
         <div className="max-w-[1200px] mx-auto relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-8 items-start">
@@ -32,7 +31,7 @@ export default function Governance() {
             </p>
           </div>
           
-          {/* Right side standardized branding block */}
+         
           <div className="lg:col-span-4 lg:col-start-9 border-l-[2px] border-[#cc9a66] pl-6 lg:pl-10 mt-8 lg:mt-32">
             <h2 className="font-serif text-[24px] lg:text-[30px] leading-[1.2] mb-3">Lifecare Medical<br/>Institute</h2>
             <p className="text-[#cc9a66] font-bold tracking-[0.15em] text-[10px] lg:text-[11px] uppercase">
@@ -43,11 +42,11 @@ export default function Governance() {
         </div>
       </section>
 
-      {/* Overlapping 3 Info Cards Section */}
+   
       <section className="bg-white pb-20 lg:pb-32 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 -mt-24 relative z-20">
           
-          {/* Card 1: Leadership */}
+        
           <article className="bg-white p-8 lg:p-10 border border-gray-100 border-t-[3px] border-t-[#187965] shadow-md">
             <div className="h-12 w-12 bg-teal-50 border border-teal-100 flex items-center justify-center rounded text-[#187965] mb-8">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" /></svg>
@@ -58,7 +57,7 @@ export default function Governance() {
             </p>
           </article>
           
-          {/* Card 2: Academic governance */}
+        
           <article className="bg-white p-8 lg:p-10 border border-gray-100 border-t-[3px] border-t-[#187965] shadow-md">
             <div className="h-12 w-12 bg-teal-50 border border-teal-100 flex items-center justify-center rounded text-[#187965] mb-8">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" /></svg>
@@ -69,7 +68,7 @@ export default function Governance() {
             </p>
           </article>
 
-          {/* Card 3: Quality oversight */}
+       
           <article className="bg-white p-8 lg:p-10 border border-gray-100 border-t-[3px] border-t-[#187965] shadow-md">
             <div className="h-12 w-12 bg-teal-50 border border-teal-100 flex items-center justify-center rounded text-[#187965] mb-8">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
@@ -83,7 +82,7 @@ export default function Governance() {
         </div>
       </section>
 
-      {/* Leadership Profiles Section (Beige) */}
+     
       <section className="bg-[#f9f8f4] py-20 lg:py-32 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto">
           
@@ -100,10 +99,10 @@ export default function Governance() {
             Meet the medical professionals and institutional leaders contributing to LMI.
           </p>
 
-          {/* 4 Profiles Grid */}
+       
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             
-            {/* Profile 1 */}
+          
             <div className="bg-white shadow-sm flex flex-col h-full">
               <div className="aspect-[4/5] sm:aspect-square w-full bg-gray-200 overflow-hidden">
                 <img src="/leadership/dr-shaukat.jpg" alt="Dr. Shaukat Amirzadah" className="w-full h-full object-cover object-top" />
@@ -114,7 +113,7 @@ export default function Governance() {
               </div>
             </div>
 
-            {/* Profile 2 */}
+            
             <div className="bg-white shadow-sm flex flex-col h-full">
               <div className="aspect-[4/5] sm:aspect-square w-full bg-gray-200 overflow-hidden">
                 <img src="/leadership/dr-sanaullah.jpg" alt="Prof. Dr. Sanaullah Jan" className="w-full h-full object-cover object-top" />
@@ -125,7 +124,7 @@ export default function Governance() {
               </div>
             </div>
 
-            {/* Profile 3 */}
+          
             <div className="bg-white shadow-sm flex flex-col h-full">
               <div className="aspect-[4/5] sm:aspect-square w-full bg-gray-200 overflow-hidden">
                 <img src="/leadership/dr-mumtaz.jpg" alt="Prof. Dr. Mumtaz Ali" className="w-full h-full object-cover object-top" />
@@ -136,7 +135,7 @@ export default function Governance() {
               </div>
             </div>
 
-            {/* Profile 4 */}
+        
             <div className="bg-white shadow-sm flex flex-col h-full">
               <div className="aspect-[4/5] sm:aspect-square w-full bg-gray-200 overflow-hidden">
                 <img src="/leadership/dr-javed.jpg" alt="Prof. Dr. Javed Iqbal Farooqi" className="w-full h-full object-cover object-top" />
@@ -151,7 +150,7 @@ export default function Governance() {
         </div>
       </section>
 
-      {/* Call to Action Section */}
+    
       <section className="bg-[#0b1828] text-white py-20 lg:py-32 border-b border-gray-800 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-4 mb-8">

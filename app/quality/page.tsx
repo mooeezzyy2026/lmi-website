@@ -4,10 +4,9 @@ export default function QualityAssurance() {
   return (
     <main className="w-full font-sans">
       
-      {/* Hero Header Section */}
       <section className="bg-[#0a2230] text-white pt-24 pb-32 px-6 lg:px-8 relative overflow-hidden">
         
-        {/* Subtle decorative background shape */}
+       
         <div className="absolute top-0 right-0 w-[50%] h-[150%] bg-[#061822] rounded-bl-[100%] z-0 pointer-events-none opacity-50"></div>
         
         <div className="max-w-[1200px] mx-auto relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-8 items-start">
@@ -32,7 +31,7 @@ export default function QualityAssurance() {
             </p>
           </div>
           
-          {/* Right side standardized branding block */}
+         
           <div className="lg:col-span-4 lg:col-start-9 border-l-[2px] border-[#cc9a66] pl-6 lg:pl-10 mt-8 lg:mt-32">
             <h2 className="font-serif text-[24px] lg:text-[30px] leading-[1.2] mb-3">Lifecare Medical<br/>Institute</h2>
             <p className="text-[#cc9a66] font-bold tracking-[0.15em] text-[10px] lg:text-[11px] uppercase">
@@ -43,7 +42,7 @@ export default function QualityAssurance() {
         </div>
       </section>
 
-      {/* Our Quality Framework Section */}
+    
       <section className="bg-white py-20 lg:py-32 px-6 lg:px-8 border-b border-gray-100">
         <div className="max-w-[1200px] mx-auto grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           
@@ -70,7 +69,7 @@ export default function QualityAssurance() {
         </div>
       </section>
 
-      {/* How the System Works Section */}
+     
       <section className="bg-[#f9f8f4] py-20 lg:py-32 px-6 lg:px-8 border-b border-gray-200">
         <div className="max-w-[1200px] mx-auto grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
             <div className="lg:col-span-5">
@@ -86,7 +85,7 @@ export default function QualityAssurance() {
         </div>
       </section>
 
-      {/* Quality at Every Stage Section */}
+    
       <section className="bg-white py-20 lg:py-32 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto">
             <div className="flex items-center gap-4 mb-6">
@@ -98,26 +97,26 @@ export default function QualityAssurance() {
               Quality at every stage
             </h2>
 
-            {/* Stepper Content */}
+         
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-8 relative z-10">
-                {/* Connecting Line (hidden on mobile) */}
+               
                 <div className="hidden md:block absolute top-[16px] left-[2rem] w-[66%] h-[1px] bg-gray-200 -z-10"></div>
 
-                {/* Step 1 */}
+               
                 <div className="relative">
                     <div className="w-8 h-8 rounded-full bg-[#187965] text-white flex items-center justify-center text-[11px] font-bold mb-6 ring-8 ring-white">01</div>
                     <h3 className="font-serif text-[22px] lg:text-[24px] text-[#0a2230] mb-3">Before study</h3>
                     <p className="text-gray-600 text-[14px] leading-[1.7] max-w-[280px]">Accurate information, fair admissions and effective induction.</p>
                 </div>
 
-                {/* Step 2 */}
+             
                 <div className="relative">
                     <div className="w-8 h-8 rounded-full bg-[#187965] text-white flex items-center justify-center text-[11px] font-bold mb-6 ring-8 ring-white">02</div>
                     <h3 className="font-serif text-[22px] lg:text-[24px] text-[#0a2230] mb-3">During study</h3>
                     <p className="text-gray-600 text-[14px] leading-[1.7] max-w-[280px]">Planned teaching, suitable resources, fair assessment and timely support.</p>
                 </div>
 
-                {/* Step 3 */}
+          
                 <div className="relative">
                     <div className="w-8 h-8 rounded-full bg-[#187965] text-white flex items-center justify-center text-[11px] font-bold mb-6 ring-8 ring-white">03</div>
                     <h3 className="font-serif text-[22px] lg:text-[24px] text-[#0a2230] mb-3">At completion</h3>
@@ -125,9 +124,9 @@ export default function QualityAssurance() {
                 </div>
             </div>
 
-            {/* 3 Info Cards Section */}
+     
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mt-20">
-                {/* Card 1 */}
+               
                 <article className="bg-white p-8 lg:p-12 border border-gray-100 border-t-[3px] border-t-[#187965] shadow-sm">
                     <div className="h-12 w-12 bg-teal-50 flex items-center justify-center mb-8 text-[#187965]">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m3.75 9v6m3-3H9m1.5-12H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" /></svg>
@@ -138,7 +137,7 @@ export default function QualityAssurance() {
                     </p>
                 </article>
                 
-                {/* Card 2 */}
+              
                 <article className="bg-white p-8 lg:p-12 border border-gray-100 border-t-[3px] border-t-[#187965] shadow-sm">
                     <div className="h-12 w-12 bg-teal-50 flex items-center justify-center mb-8 text-[#187965]">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" /></svg>
@@ -149,7 +148,6 @@ export default function QualityAssurance() {
                     </p>
                 </article>
                 
-                {/* Card 3 */}
                 <article className="bg-white p-8 lg:p-12 border border-gray-100 border-t-[3px] border-t-[#187965] shadow-sm">
                     <div className="h-12 w-12 bg-teal-50 flex items-center justify-center mb-8 text-[#187965]">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" /></svg>
@@ -163,7 +161,7 @@ export default function QualityAssurance() {
         </div>
       </section>
 
-      {/* Improvement Must Be Evidenced Section */}
+   
       <section className="bg-[#0a2230] text-white pt-20 pb-16 lg:pt-32 lg:pb-24 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
             <div className="lg:col-span-5">
@@ -179,10 +177,9 @@ export default function QualityAssurance() {
         </div>
       </section>
 
-      {/* Call to Action Section */}
       <section className="bg-[#0a2230] text-white pb-20 lg:pb-32 px-6 lg:px-8 border-b border-gray-800">
         <div className="max-w-[1200px] mx-auto">
-          {/* Subtle separator line to match the layout flow */}
+         
           <div className="border-t border-white/10 pt-16 lg:pt-24">
             <div className="flex items-center gap-4 mb-8">
               <div className="h-[1px] w-12 bg-[#cc9a66]"></div>

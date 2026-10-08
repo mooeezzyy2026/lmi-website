@@ -3,11 +3,9 @@ import Link from 'next/link'
 export default function HowToApply() {
   return (
     <main className="w-full font-sans">
-      
-      {/* Hero Header Section */}
+    
       <section className="bg-[#0a2230] text-white pt-24 pb-32 px-6 lg:px-8 relative overflow-hidden">
-        
-        {/* Subtle decorative background shape */}
+       
         <div className="absolute top-0 right-0 w-[50%] h-[150%] bg-[#061822] rounded-bl-[100%] z-0 pointer-events-none opacity-50"></div>
         
         <div className="max-w-[1200px] mx-auto relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-8 items-start">
@@ -32,7 +30,7 @@ export default function HowToApply() {
             </p>
           </div>
           
-          {/* Right side standardized branding block */}
+          
           <div className="lg:col-span-4 lg:col-start-9 border-l-[2px] border-[#cc9a66] pl-6 lg:pl-10 mt-8 lg:mt-32">
             <h2 className="font-serif text-[24px] lg:text-[30px] leading-[1.2] mb-3">Lifecare Medical<br/>Institute</h2>
             <p className="text-[#cc9a66] font-bold tracking-[0.15em] text-[10px] lg:text-[11px] uppercase">
@@ -43,7 +41,7 @@ export default function HowToApply() {
         </div>
       </section>
 
-      {/* Six Steps Section */}
+      
       <section className="bg-white py-20 lg:py-32 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto">
           
@@ -56,10 +54,10 @@ export default function HowToApply() {
             Six steps to apply
           </h2>
 
-          {/* Steps Grid */}
+        
           <div className="border border-gray-100 shadow-sm bg-white">
             
-            {/* Row 1 */}
+          
             <div className="grid grid-cols-1 md:grid-cols-2 border-b border-gray-100">
               <div className="p-8 lg:p-12 flex gap-6 md:border-r border-gray-100">
                 <span className="text-[#187965] font-serif text-[24px] lg:text-[28px] leading-none mt-1">01</span>
@@ -81,7 +79,7 @@ export default function HowToApply() {
               </div>
             </div>
 
-            {/* Row 2 */}
+         
             <div className="grid grid-cols-1 md:grid-cols-2 border-b border-gray-100">
               <div className="p-8 lg:p-12 flex gap-6 md:border-r border-gray-100">
                 <span className="text-[#187965] font-serif text-[24px] lg:text-[28px] leading-none mt-1">03</span>
@@ -103,7 +101,7 @@ export default function HowToApply() {
               </div>
             </div>
 
-            {/* Row 3 */}
+           
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="p-8 lg:p-12 flex gap-6 md:border-r border-gray-100">
                 <span className="text-[#187965] font-serif text-[24px] lg:text-[28px] leading-none mt-1">05</span>
@@ -129,7 +127,7 @@ export default function HowToApply() {
         </div>
       </section>
 
-      {/* Prepare Documents Checklist Section (Beige) */}
+     
       <section className="bg-[#f9f8f4] py-20 lg:py-32 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           
@@ -163,7 +161,7 @@ export default function HowToApply() {
         </div>
       </section>
 
-      {/* Call to Action Section */}
+     
       <section className="bg-[#0b1828] text-white py-20 lg:py-32 border-b border-gray-800 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-4 mb-8">

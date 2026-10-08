@@ -4,10 +4,10 @@ export default function Policies() {
   return (
     <main className="w-full font-sans">
       
-      {/* Hero Header Section */}
+     
       <section className="bg-[#0a2230] text-white pt-24 pb-32 px-6 lg:px-8 relative overflow-hidden">
         
-        {/* Subtle decorative background shape */}
+     
         <div className="absolute top-0 right-0 w-[50%] h-[150%] bg-[#061822] rounded-bl-[100%] z-0 pointer-events-none opacity-50"></div>
         
         <div className="max-w-[1200px] mx-auto relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-8 items-start">
@@ -32,7 +32,7 @@ export default function Policies() {
             </p>
           </div>
           
-          {/* Right side standardized branding block */}
+         
           <div className="lg:col-span-4 lg:col-start-9 border-l-[2px] border-[#cc9a66] pl-6 lg:pl-10 mt-8 lg:mt-32">
             <h2 className="font-serif text-[24px] lg:text-[30px] leading-[1.2] mb-3">Lifecare Medical<br/>Institute</h2>
             <p className="text-[#cc9a66] font-bold tracking-[0.15em] text-[10px] lg:text-[11px] uppercase">
@@ -43,19 +43,19 @@ export default function Policies() {
         </div>
       </section>
 
-      {/* Approved Documents Box Section */}
+    
       <section className="bg-white py-20 lg:py-32 px-6 lg:px-8">
         <div className="max-w-[1000px] mx-auto">
           <div className="border border-gray-100 shadow-sm bg-white p-8 lg:p-16 flex flex-col md:flex-row gap-8 lg:gap-12 items-start border-l-[4px] border-l-[#187965]">
             
-            {/* Icon (Document/Clipboard) */}
+           
             <div className="shrink-0 p-4 bg-teal-50 text-[#187965] rounded">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.666 3.888A2.25 2.25 0 0 0 13.562 2.25h-3.124a2.25 2.25 0 0 0-2.104 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 0 1 1.927-.184" />
               </svg>
             </div>
             
-            {/* Content */}
+           
             <div className="flex-grow">
               
               <h2 className="font-serif text-[28px] lg:text-[36px] text-[#0a2230] leading-[1.15] tracking-tight mb-4">
@@ -74,11 +74,11 @@ export default function Policies() {
         </div>
       </section>
 
-      {/* Policies Grid Section (Beige background) */}
+      
       <section className="bg-[#f9f8f4] py-0 px-6 lg:px-8 border-b border-gray-200">
         <div className="max-w-[1200px] mx-auto grid md:grid-cols-2">
           
-          {/* Item 1: Privacy Notice */}
+          
           <div className="border-r-0 md:border-r border-b border-gray-200 p-10 lg:p-14">
             <p className="text-[#187965] font-bold tracking-[0.2em] text-[10px] lg:text-[11px] uppercase mb-4">Document</p>
             <h3 className="font-serif text-[22px] lg:text-[26px] text-[#0a2230] leading-[1.2] mb-4">Privacy Notice</h3>
@@ -90,7 +90,7 @@ export default function Policies() {
             </Link>
           </div>
 
-          {/* Item 2: Cookie Policy */}
+         
           <div className="border-b border-gray-200 p-10 lg:p-14">
             <p className="text-[#187965] font-bold tracking-[0.2em] text-[10px] lg:text-[11px] uppercase mb-4">Document</p>
             <h3 className="font-serif text-[22px] lg:text-[26px] text-[#0a2230] leading-[1.2] mb-4">Cookie Policy</h3>
@@ -102,7 +102,7 @@ export default function Policies() {
             </Link>
           </div>
 
-          {/* Item 3: Accessibility Statement */}
+          
           <div className="border-r-0 md:border-r border-b border-gray-200 p-10 lg:p-14">
             <p className="text-[#187965] font-bold tracking-[0.2em] text-[10px] lg:text-[11px] uppercase mb-4">Document</p>
             <h3 className="font-serif text-[22px] lg:text-[26px] text-[#0a2230] leading-[1.2] mb-4">Accessibility Statement</h3>
@@ -114,7 +114,7 @@ export default function Policies() {
             </Link>
           </div>
 
-          {/* Item 4: Complaints and Appeals */}
+       
           <div className="border-b border-gray-200 p-10 lg:p-14">
             <p className="text-[#187965] font-bold tracking-[0.2em] text-[10px] lg:text-[11px] uppercase mb-4">Document</p>
             <h3 className="font-serif text-[22px] lg:text-[26px] text-[#0a2230] leading-[1.2] mb-4">Complaints and Appeals</h3>
@@ -126,7 +126,7 @@ export default function Policies() {
             </Link>
           </div>
 
-          {/* Item 5: Safeguarding */}
+        
           <div className="border-r-0 md:border-r border-b md:border-b-0 border-gray-200 p-10 lg:p-14">
             <p className="text-[#187965] font-bold tracking-[0.2em] text-[10px] lg:text-[11px] uppercase mb-4">Document</p>
             <h3 className="font-serif text-[22px] lg:text-[26px] text-[#0a2230] leading-[1.2] mb-4">Safeguarding</h3>
@@ -138,7 +138,7 @@ export default function Policies() {
             </Link>
           </div>
 
-          {/* Item 6: Equality and Inclusion */}
+        
           <div className="border-b md:border-b-0 border-gray-200 p-10 lg:p-14">
             <p className="text-[#187965] font-bold tracking-[0.2em] text-[10px] lg:text-[11px] uppercase mb-4">Document</p>
             <h3 className="font-serif text-[22px] lg:text-[26px] text-[#0a2230] leading-[1.2] mb-4">Equality and Inclusion</h3>
@@ -150,7 +150,7 @@ export default function Policies() {
             </Link>
           </div>
 
-          {/* Item 7: Terms of Use */}
+     
           <div className="border-r-0 md:border-r border-t border-gray-200 p-10 lg:p-14 col-span-1">
             <p className="text-[#187965] font-bold tracking-[0.2em] text-[10px] lg:text-[11px] uppercase mb-4">Document</p>
             <h3 className="font-serif text-[22px] lg:text-[26px] text-[#0a2230] leading-[1.2] mb-4">Terms of Use</h3>
@@ -162,13 +162,13 @@ export default function Policies() {
             </Link>
           </div>
           
-          {/* Empty column to keep grid layout balanced */}
+         
           <div className="border-t border-gray-200 p-10 lg:p-14 hidden md:block"></div>
 
         </div>
       </section>
 
-      {/* Call to Action Section */}
+    
       <section className="bg-[#0b1828] text-white py-20 lg:py-32 border-b border-gray-800 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-4 mb-8">

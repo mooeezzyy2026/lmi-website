@@ -4,10 +4,10 @@ export default function Prospectus2026() {
   return (
     <main className="w-full font-sans">
       
-      {/* Hero Header Section */}
+     
       <section className="bg-[#0a2230] text-white pt-24 pb-32 px-6 lg:px-8 relative overflow-hidden">
         
-        {/* Subtle decorative background shape */}
+        
         <div className="absolute top-0 right-0 w-[50%] h-[150%] bg-[#061822] rounded-bl-[100%] z-0 pointer-events-none opacity-50"></div>
         
         <div className="max-w-[1200px] mx-auto relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-8 items-start">
@@ -32,7 +32,7 @@ export default function Prospectus2026() {
             </p>
           </div>
           
-          {/* Right side standardized branding block */}
+        
           <div className="lg:col-span-4 lg:col-start-9 border-l-[2px] border-[#cc9a66] pl-6 lg:pl-10 mt-8 lg:mt-32">
             <h2 className="font-serif text-[24px] lg:text-[30px] leading-[1.2] mb-3">Lifecare Medical<br/>Institute</h2>
             <p className="text-[#cc9a66] font-bold tracking-[0.15em] text-[10px] lg:text-[11px] uppercase">
@@ -43,19 +43,19 @@ export default function Prospectus2026() {
         </div>
       </section>
 
-      {/* Programme Information Box Section */}
+     
       <section className="bg-white py-20 lg:py-32 px-6 lg:px-8">
         <div className="max-w-[1000px] mx-auto">
           <div className="border border-gray-100 shadow-sm bg-white p-8 lg:p-16 flex flex-col md:flex-row gap-8 lg:gap-12 items-start border-l-[4px] border-l-[#187965]">
             
-            {/* Icon (Book) */}
+          
             <div className="shrink-0 p-4 bg-teal-50 text-[#187965] rounded">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
               </svg>
             </div>
             
-            {/* Content */}
+          
             <div className="flex-grow">
               <div className="flex items-center gap-4 mb-4">
                 <div className="h-[1px] w-8 bg-[#cc9a66]"></div>
@@ -79,7 +79,7 @@ export default function Prospectus2026() {
                 <Link className="bg-[#0a2230] text-white px-8 py-3.5 text-[14px] font-semibold hover:bg-gray-800 transition text-center" href="/contact">
                   Contact Admissions
                 </Link>
-                {/* Linked to Nursing Allied Health as requested */}
+                
                 <Link className="border border-gray-300 text-[#0a2230] px-8 py-3.5 text-[14px] font-semibold hover:bg-gray-50 transition text-center" href="/schools/nursing-allied-health">
                   View programmes
                 </Link>
@@ -90,7 +90,7 @@ export default function Prospectus2026() {
         </div>
       </section>
 
-      {/* Use Current Information Section (Beige) */}
+     
       <section className="bg-[#f9f8f4] py-20 lg:py-32 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           
@@ -109,7 +109,7 @@ export default function Prospectus2026() {
         </div>
       </section>
 
-      {/* Call to Action Section */}
+    
       <section className="bg-[#0b1828] text-white py-20 lg:py-32 border-b border-gray-800 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-4 mb-8">

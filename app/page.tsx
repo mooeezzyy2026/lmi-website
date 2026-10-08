@@ -4,11 +4,11 @@ export default function Home() {
   return (
     <main className="w-full">
       
-      {/* Hero Section */}
+     
       <section className="bg-[#f9f8f4] relative flex flex-col lg:block min-h-[85vh] overflow-hidden">
         <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row h-full">
           
-          {/* Left Text Content */}
+        
           <div className="w-full lg:w-[55%] px-6 lg:px-8 py-20 lg:py-32 flex flex-col justify-center relative z-20 lg:pr-16">
             <div className="flex items-center gap-4 mb-8">
               <div className="h-[1px] w-12 bg-[#cc9a66]"></div>
@@ -44,7 +44,7 @@ export default function Home() {
           
         </div>
 
-        {/* Right Bleeding Image with Blend Effect */}
+       
         <div className="w-full h-[450px] lg:h-full lg:w-[65%] lg:absolute lg:top-0 lg:right-0 relative z-10">
           <div className="hidden lg:block absolute top-0 left-0 w-[40%] h-full bg-gradient-to-r from-[#f9f8f4] via-[#f9f8f4]/90 to-transparent z-10 pointer-events-none"></div>
           <div className="hidden lg:block absolute bottom-0 left-0 w-full h-[15%] bg-gradient-to-t from-[#f9f8f4] to-transparent z-10 pointer-events-none"></div>
@@ -56,7 +56,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Study at LMI Section */}
+      
       <section className="bg-white py-20 lg:py-32 px-6 lg:px-8">
         <div className="max-w-[1400px] mx-auto grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <div>
@@ -93,7 +93,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why LMI Section */}
+     
       <section className="bg-[#f9f8f4] py-20 lg:py-32 px-6 lg:px-8">
         <div className="max-w-[1400px] mx-auto">
           
@@ -138,11 +138,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Our Wider Organisation Section */}
+   
       <section className="bg-[#f4f1ea] relative flex flex-col lg:block overflow-hidden">
         <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row h-full">
           
-          {/* Left Text */}
+        
           <div className="w-full lg:w-[50%] px-6 lg:px-8 py-20 lg:py-32 flex flex-col justify-center relative z-20 lg:pr-16">
             <div className="flex items-center gap-4 mb-8">
               <div className="h-[1px] w-12 bg-[#cc9a66]"></div>
@@ -169,7 +169,7 @@ export default function Home() {
           
         </div>
 
-        {/* Right Bleeding Image with Blend Effect */}
+       
         <div className="w-full h-[450px] lg:h-full lg:w-[60%] lg:absolute lg:top-0 lg:right-0 relative z-10">
           <div className="hidden lg:block absolute top-0 left-0 w-[40%] h-full bg-gradient-to-r from-[#f4f1ea] via-[#f4f1ea]/90 to-transparent z-10 pointer-events-none"></div>
           <div className="hidden lg:block absolute bottom-0 left-0 w-full h-[15%] bg-gradient-to-t from-[#f4f1ea] to-transparent z-10 pointer-events-none"></div>
@@ -193,7 +193,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Quality at LMI */}
+     
       <section className="bg-[#187965] text-white py-20 lg:py-32 overflow-hidden px-6 lg:px-8">
         <div className="max-w-[1400px] mx-auto grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="relative flex justify-center lg:justify-start order-2 lg:order-1 hidden sm:flex">
@@ -218,7 +218,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Your Experience */}
+     
       <section className="bg-white py-20 lg:py-32 px-6 lg:px-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="flex items-center gap-4 mb-8">
@@ -229,7 +229,7 @@ export default function Home() {
           
           <div className="grid lg:grid-cols-2 gap-6">
             
-            {/* Left Beige Card */}
+           
             <div className="bg-[#f9f8f4] p-8 lg:p-14 flex flex-col justify-between h-full min-h-[300px] lg:min-h-[450px]">
               <div className="flex justify-between items-start mb-8">
                 <div className="text-[#187965] w-8 h-8 rounded-full border border-[#187965] flex items-center justify-center">
@@ -247,7 +247,7 @@ export default function Home() {
             </div>
             
             <div className="flex flex-col gap-6">
-              {/* Top Right White Card */}
+            
               <div className="border border-gray-200 p-8 lg:p-10 flex-1 flex flex-col justify-between">
                 <div className="flex justify-end mb-4">
                   <span className="text-gray-400 font-bold text-xs">02</span>
@@ -261,7 +261,7 @@ export default function Home() {
                 </div>
               </div>
               
-              {/* Bottom Right Blue Card */}
+              
               <div className="bg-[#0a2230] text-white p-8 lg:p-10 flex-1 flex flex-col justify-between">
                 <div className="flex justify-end mb-4">
                   <span className="text-gray-500 font-bold text-xs">03</span>
@@ -280,7 +280,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Call to Action Section */}
       <section className="bg-[#0b1828] text-white py-20 lg:py-32 border-b border-gray-800 px-6 lg:px-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="flex items-center gap-4 mb-8">

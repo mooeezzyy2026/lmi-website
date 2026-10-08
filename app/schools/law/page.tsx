@@ -4,10 +4,10 @@ export default function LawSchool() {
   return (
     <main className="w-full font-sans">
       
-      {/* Hero Header Section */}
+      
       <section className="bg-[#0a2230] text-white pt-24 pb-32 px-6 lg:px-8 relative overflow-hidden">
         
-        {/* Subtle decorative background shape */}
+       
         <div className="absolute top-0 right-0 w-[50%] h-[150%] bg-[#061822] rounded-bl-[100%] z-0 pointer-events-none opacity-50"></div>
         
         <div className="max-w-[1200px] mx-auto relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-8 items-start">
@@ -42,24 +42,24 @@ export default function LawSchool() {
         </div>
       </section>
 
-      {/* Planned Academic Development Box */}
+
       <section className="relative pt-16 pb-20 px-6 lg:px-8">
-        {/* Split Background Effect (Top half dark blue, bottom half white) */}
+        
         <div className="absolute top-0 left-0 w-full h-[35%] bg-[#0a2230] z-0"></div>
         <div className="absolute top-[35%] left-0 w-full h-[65%] bg-white z-0"></div>
 
         <div className="max-w-[1200px] mx-auto relative z-10">
           
-          {/* The crisp outlined box with the thick teal left border and BEIGE background */}
+          
           <div className="w-full border border-gray-200 border-l-[4px] border-l-[#187965] p-8 lg:p-14 bg-[#f9f8f4] shadow-sm">
             
             <div className="flex items-center gap-6 mb-8">
-              {/* Teal Icon Box (White background to pop against the beige box - Scales of Justice) */}
+             
               <div className="w-12 h-12 bg-white border border-[#187965]/20 flex flex-shrink-0 items-center justify-center rounded-sm text-[#187965]">
                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0 0 12 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52v8.625c0 2.872-2.328 5.25-5.25 5.25m13.5-13.875v8.625c0 2.872-2.328 5.25-5.25 5.25M4.5 4.97v8.625c0 2.872 2.328 5.25 5.25 5.25" /></svg>
               </div>
               
-              {/* Section Tag */}
+             
               <div className="flex items-center gap-4">
                 <div className="h-[1px] w-12 bg-[#cc9a66]"></div>
                 <p className="text-[#187965] font-bold tracking-[0.2em] text-[11px] uppercase">Planned School</p>
@@ -92,7 +92,7 @@ export default function LawSchool() {
         </div>
       </section>
 
-      {/* Call to Action Section */}
+     
       <section className="bg-[#0b1828] text-white pt-10 pb-20 lg:pt-16 lg:pb-32 border-b border-gray-800 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-4 mb-8">

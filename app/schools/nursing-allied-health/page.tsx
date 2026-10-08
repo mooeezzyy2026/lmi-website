@@ -4,10 +4,10 @@ export default function NursingAndAlliedHealth() {
   return (
     <main className="w-full font-sans">
       
-      {/* Hero Header Section */}
+     
       <section className="bg-[#0a2230] text-white pt-24 pb-32 px-6 lg:px-8 relative overflow-hidden">
         
-        {/* Subtle decorative background shape */}
+        
         <div className="absolute top-0 right-0 w-[50%] h-[150%] bg-[#061822] rounded-bl-[100%] z-0 pointer-events-none opacity-50"></div>
         
         <div className="max-w-[1200px] mx-auto relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-8 items-start">
@@ -42,20 +42,20 @@ export default function NursingAndAlliedHealth() {
         </div>
       </section>
 
-      {/* Intro Text Box Section (White background outside, Beige background inside the box) */}
+      
       <section className="bg-white pt-20 lg:pt-32 pb-10 lg:pb-16 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto flex justify-center">
           
-          {/* The crisp outlined box with the thick teal left border and BEIGE background */}
+         
           <div className="w-full max-w-[1000px] border border-gray-200 border-l-[4px] border-l-[#187965] p-8 lg:p-14 bg-[#f9f8f4]">
             
             <div className="flex items-center gap-6 mb-8">
-              {/* Teal Icon Box (White background to pop against the beige box) */}
+             
               <div className="w-12 h-12 bg-white border border-[#187965]/20 flex flex-shrink-0 items-center justify-center rounded-sm text-[#187965]">
                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /></svg>
               </div>
               
-              {/* Section Tag */}
+             
               <div className="flex items-center gap-4">
                 <div className="h-[1px] w-12 bg-[#cc9a66]"></div>
                 <p className="text-[#187965] font-bold tracking-[0.2em] text-[11px] uppercase">Current Academic Base</p>
@@ -76,7 +76,7 @@ export default function NursingAndAlliedHealth() {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              {/* Linked directly to the #current-delivery section below */}
+              
               <Link href="#current-delivery" className="bg-[#0a2230] text-white px-8 py-3.5 text-[14px] font-semibold hover:bg-gray-800 transition flex items-center justify-center gap-2 text-center w-full sm:w-auto">
                 View programme information
               </Link>
@@ -89,7 +89,7 @@ export default function NursingAndAlliedHealth() {
         </div>
       </section>
 
-      {/* Currently Running Section */}
+  
       <section id="current-delivery" className="bg-[#f9f8f4] pt-10 lg:pt-16 pb-20 lg:pb-32 px-6 lg:px-8 scroll-mt-10">
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-4 mb-6">
@@ -142,7 +142,7 @@ export default function NursingAndAlliedHealth() {
         </div>
       </section>
 
-      {/* Approval Process Section */}
+ 
       <section className="bg-white py-20 lg:py-32 px-6 lg:px-8 border-t border-gray-100">
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-4 mb-6">
@@ -222,7 +222,7 @@ export default function NursingAndAlliedHealth() {
         </div>
       </section>
 
-      {/* Call to Action Section */}
+      
       <section className="bg-[#0b1828] text-white py-20 lg:py-32 border-b border-gray-800 px-6 lg:px-8">
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-4 mb-8">
