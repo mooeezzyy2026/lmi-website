@@ -105,7 +105,8 @@ export default function Governance() {
           
             <div className="bg-white shadow-sm flex flex-col h-full">
               <div className="aspect-[4/5] sm:aspect-square w-full bg-gray-200 overflow-hidden">
-                <img src="/leadership/dr-shaukat.jpg" alt="Dr. Shaukat Amirzadah" className="w-full h-full object-cover object-top" />
+                {/* UPDATED IMAGE PATH */}
+                <img src="/images/governance/dr-shaukat.jpg" alt="Dr. Shaukat Amirzadah" className="w-full h-full object-cover object-top" />
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <h3 className="font-serif font-bold text-[18px] lg:text-[20px] text-[#0a2230] leading-snug mb-2">Dr. Shaukat Amirzadah</h3>
@@ -116,7 +117,8 @@ export default function Governance() {
             
             <div className="bg-white shadow-sm flex flex-col h-full">
               <div className="aspect-[4/5] sm:aspect-square w-full bg-gray-200 overflow-hidden">
-                <img src="/leadership/dr-sanaullah.jpg" alt="Prof. Dr. Sanaullah Jan" className="w-full h-full object-cover object-top" />
+                {/* UPDATED IMAGE PATH */}
+                <img src="/images/governance/dr-sanaullah.jpg" alt="Prof. Dr. Sanaullah Jan" className="w-full h-full object-cover object-top" />
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <h3 className="font-serif font-bold text-[18px] lg:text-[20px] text-[#0a2230] leading-snug mb-2">Prof. Dr. Sanaullah Jan</h3>
@@ -127,7 +129,8 @@ export default function Governance() {
           
             <div className="bg-white shadow-sm flex flex-col h-full">
               <div className="aspect-[4/5] sm:aspect-square w-full bg-gray-200 overflow-hidden">
-                <img src="/leadership/dr-mumtaz.jpg" alt="Prof. Dr. Mumtaz Ali" className="w-full h-full object-cover object-top" />
+                {/* UPDATED IMAGE PATH */}
+                <img src="/images/governance/dr-mumtaz.jpg" alt="Prof. Dr. Mumtaz Ali" className="w-full h-full object-cover object-top" />
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <h3 className="font-serif font-bold text-[18px] lg:text-[20px] text-[#0a2230] leading-snug mb-2">Prof. Dr. Mumtaz Ali</h3>
@@ -138,7 +141,8 @@ export default function Governance() {
         
             <div className="bg-white shadow-sm flex flex-col h-full">
               <div className="aspect-[4/5] sm:aspect-square w-full bg-gray-200 overflow-hidden">
-                <img src="/leadership/dr-javed.jpg" alt="Prof. Dr. Javed Iqbal Farooqi" className="w-full h-full object-cover object-top" />
+                {/* UPDATED IMAGE PATH */}
+                <img src="/images/governance/dr-javed.jpg" alt="Prof. Dr. Javed Iqbal Farooqi" className="w-full h-full object-cover object-top" />
               </div>
               <div className="p-6 flex flex-col flex-grow">
                 <h3 className="font-serif font-bold text-[18px] lg:text-[20px] text-[#0a2230] leading-snug mb-2">Prof. Dr. Javed Iqbal Farooqi</h3>
